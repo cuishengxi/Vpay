@@ -1,0 +1,12 @@
+platform :ios, '8.0'
+#use_frameworks!
+inhibit_all_warnings!
+#by David email:cuishengxi@189.cn
+
+
+target 'Vpay' do
+    
+     pod 'AFNetworking','3.1.0'#网络请求 https://github.com/AFNetworking/AFNetworking
+     pod 'JWNetAutoCache'
+        
+end
